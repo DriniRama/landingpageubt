@@ -11,11 +11,12 @@ interface Props {
 
 const Member: React.FC<Props> = ({ id, name, socialId, link }) =>
 (
-    <div><Image src={`/assets/team/boiii.svg`}
-        alt={name}
-        width={210}
-        height={244}
-    />
+    <div>
+        <Image src={`/assets/team/team_member_${id}.svg`}
+            alt={name}
+            width={210}
+            height={244}
+        />
         <div className="text-2xl xl:text-3xl ">{name}</div>
         <div className="text-xl">
             <Link href={link}>

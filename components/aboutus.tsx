@@ -11,18 +11,37 @@ const AboutUs: React.FC = () => {
         <div className="container mx-auto px-11 text-center mt-28">
             <h2>Our team </h2>
             <div className="mt-2">the&ldquo;spec-ops&rdquo;</div>
-            <div className="mt-10 grid grid-cols-2md:grid-cols-3lg:grid-cols-4xl:grid-cols-5gap-6lg:gap-20">
+            <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
                 <Member
                     id="ardit"
                     name="Ardit"
                     socialId="@arditshefkiu"
                     link="#"
                 />
-                <div>member</div>
-                <div>member</div>
-                <div>member</div>
-                <div>member</div>
-                <div>member</div>
+                <Member
+                    id="endrit"
+                    name="Endrit"
+                    socialId="@pixendrit"
+                    link="#"
+                />
+                <Member
+                    id="shqiprim"
+                    name="Shqiprim"
+                    socialId="@shqiprimramadani"
+                    link="#"
+                />
+                <Member
+                    id="bleona"
+                    name="Bleona"
+                    socialId="@bleonabytyqi"
+                    link="#"
+                />
+                <Member
+                    id="bleonë"
+                    name="Bleonë"
+                    socialId="@bleonëhaliti"
+                    link="#"
+                />
             </div>
         </div>
         About Us</section>
