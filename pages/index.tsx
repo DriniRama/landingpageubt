@@ -7,6 +7,7 @@ import useSWR from 'swr'
 import Works from '../components/works'
 import TrustedBy from '../components/trustedby'
 import ContactUs from '../components/contactus'
+import Footer from '../components/footer'
 
 const fetcher = (input: any, init?: any) =>
   fetch(input, init).then((res) => res.json());
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Works />
       <TrustedBy />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
