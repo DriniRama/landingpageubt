@@ -1,9 +1,9 @@
-
 import React from "react";
 import ClientLogos from "./client-logo";
+import Testimonials from "./testimonials";
 import styles from '../styles/trustedby.module.css'
 const TrustedBy: React.FC = () => (
-
+  
   <section className={`bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32 ${styles.bg}`}>
     <div className="flex-1 bg-black"></div>
     <div className="flex flex-col justify-center items-center">
@@ -21,6 +21,8 @@ const TrustedBy: React.FC = () => (
       </div>
     </div>
 
+    <Testimonials />
+    <div className="flex-1 bg-black"></div>
   </section>
 );
 
