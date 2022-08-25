@@ -5,6 +5,7 @@ import AboutUs from '../components/aboutus'
 import Skills from '../components/skills'
 import useSWR from 'swr'
 import Works from '../components/works'
+import TrustedBy from '../components/trustedby'
 
 const fetcher = (input: any, init?: any) =>
   fetch(input, init).then((res) => res.json());
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <AboutUs />
       <Skills commits={data?.commits} /> 
       <Works />
+      <TrustedBy />
     </div>
   )
 }
