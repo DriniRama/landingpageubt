@@ -4,6 +4,7 @@ import CarouselItem from "./carousel-item";
 import Review from "./review";
 
 const Testimonials: React.FC = () =>
+
   <Carousel className="bg-black text-white py-10 lg:py-20">
     <CarouselItem index={0}>
       <Review by="Axel (Showtime)">
