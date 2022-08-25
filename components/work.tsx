@@ -24,5 +24,14 @@ export const WorkLeft: React.FC<{ progress: number, children: any }> = ({ childr
   )
 }
 
+export const WorkRight: React.FC<{ progress: number, children: any }> = ({ progress, children }) => {
+  let translateY = Math.max(-50, -(progress - 0.5) * 2 * 50)
+  return (
+    <div className="flex flex-1 lg:items-center justify-center h-screen"
+      style={{ transform: `transalteY(${translateY}px)` }}>
+      <div className="w-full max-w-md pt-10 lg:pt-10 px-10 md:px-0">
+        {children}
+      </div>
+    </div>
   )
 }
