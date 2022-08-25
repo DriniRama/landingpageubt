@@ -11,7 +11,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/facebook.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="facebook"
           objectFit="contain"
         />
       </SliderItem>
@@ -20,7 +20,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/meta.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="meta"
           objectFit="contain"
         />
       </SliderItem>
@@ -38,7 +38,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/status.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Statuus"
           objectFit="contain"
         />
       </SliderItem>
@@ -47,7 +47,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/tocsen.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Tocsen"
           objectFit="contain"
         />
       </SliderItem>
@@ -56,7 +56,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/rainbow.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="rainbow"
           objectFit="contain"
         />
       </SliderItem>
@@ -66,7 +66,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/stori.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="stori"
           objectFit="contain"
         />
       </SliderItem>
@@ -75,7 +75,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/extra.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Extra"
           objectFit="contain"
         />
       </SliderItem>
@@ -84,7 +84,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/status.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Status"
           objectFit="contain"
         />
       </SliderItem>
@@ -93,7 +93,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/picnic.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Picnic"
           objectFit="contain"
         />
       </SliderItem>
@@ -102,7 +102,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/slingshot.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Slingshot"
           objectFit="contain"
         />
       </SliderItem>
@@ -111,7 +111,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/showtime.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Showtime"
           objectFit="contain"
         />
       </SliderItem>
@@ -120,7 +120,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/walletconnect.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Walletconnect"
           objectFit="contain"
         />
       </SliderItem>
@@ -129,7 +129,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/pinkpanda.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Pinkpanda"
           objectFit="contain"
         />
       </SliderItem>
@@ -140,7 +140,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/walletconnect.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Walletconnect"
           objectFit="contain"
         />
       </SliderItem>
@@ -149,7 +149,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/exodus.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Exodus"
           objectFit="contain"
         />
       </SliderItem>
@@ -158,7 +158,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/showtime.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Showtime"
           objectFit="contain"
         />
       </SliderItem>
@@ -167,7 +167,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/litentry.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Litentry"
           objectFit="contain"
         />
       </SliderItem>
@@ -176,7 +176,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/scribeware.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="scribeware"
           objectFit="contain"
         />
       </SliderItem>
@@ -185,7 +185,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/snapcalorie.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Snapcalorie"
           objectFit="contain"
         />
       </SliderItem>
@@ -194,7 +194,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/steakwallet.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Steakwallet"
           objectFit="contain"
         />
       </SliderItem>
@@ -203,7 +203,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/expensify.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Expensify"
           objectFit="contain"
         />
       </SliderItem>
@@ -212,7 +212,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/snapcalorie.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Snapcalorie"
           objectFit="contain"
         />
       </SliderItem>
@@ -221,7 +221,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/steakwallet.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Steakwallet"
           objectFit="contain"
         />
       </SliderItem>
@@ -230,7 +230,7 @@ const ClientLogos: React.FC = () => (
           src={"/assets/trustedby/expensify.png"}
           width={150}
           height={50}
-          alt="Audubon"
+          alt="Expensify"
           objectFit="contain"
         />
       </SliderItem>
