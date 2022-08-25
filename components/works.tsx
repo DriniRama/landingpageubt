@@ -21,7 +21,7 @@ const Works = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src={`https://margelo.io/assets/works/pinkpanda.png`}
+                src={`/assets/works/pinkpanda.png`}
                 layout="responsive"
                 width="840"
                 height={1620}
@@ -43,7 +43,7 @@ const Works = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src={`https://margelo.io/assets/works/steakwallet.png`}
+                src={`/assets/works/steakwallet.png`}
                 layout="responsive"
                 width="840"
                 height={1620}
@@ -65,7 +65,7 @@ const Works = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src={`https://margelo.io/assets/works/showtime.png`}
+                src={`/assets/works/showtime.png`}
                 layout="responsive"
                 width={840}
                 height={1620}
