@@ -55,7 +55,7 @@ const Skills: React.FC<Props> = ({ commits }) => {
             className={`${s.skillText} inline-block`}
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            We&apos;re using some of thehe most popular and effective front-end stack.
+            We&apos;re using some of the most popular and effective front-end stack.
           </span>
         </div>
       </div>

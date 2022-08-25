@@ -4,6 +4,7 @@ import Masthead from '../components/masthead'
 import AboutUs from '../components/aboutus'
 import Skills from '../components/skills'
 import useSWR from 'swr'
+import Works from '../components/works'
 
 const fetcher = (input: any, init?: any) =>
   fetch(input, init).then((res) => res.json());
@@ -20,10 +21,9 @@ const Home: NextPage = () => {
       <Masthead />
       <AboutUs />
       <Skills commits={data?.commits} /> 
+      <Works />
     </div>
   )
 }
-
-
 
 export default Home
