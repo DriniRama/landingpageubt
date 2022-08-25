@@ -1,10 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Masthead from '../components/masthead'
 import AboutUs from '../components/aboutus'
+import Skills from '../components/skills'
+import useSWR from 'swr'
+
+const fetcher = (input: any, init?: any) =>
+  fetch(input, init).then((res) => res.json());
 
 const Home: NextPage = () => {
+ const { data } = useSWR("/api/stats", fetcher);
   return (
     <div >
       <Head>
@@ -14,6 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <Masthead />
       <AboutUs />
+      <Skills commits={data?.commits} /> 
     </div>
   )
 }
