@@ -54,9 +54,9 @@ const ContactUs: React.FC = () => {
       setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
       axios({
         method: "POST",
-        url: process.env.NEXT_PUBLIC_CONTACT_FORM_ENPOINT_URL,
+        url: "https://formspree.io/f/mzbwzvny",
         data: inputs,
-      }).then((response) => {
+      }).then((_response) => {
         handleServerResponse(
           true,
           "Thank you, your message has been submitted."
@@ -96,7 +96,7 @@ const ContactUs: React.FC = () => {
               className="text-white text-xl font-bold px-4 py-3 rounded relative"
               role="alert"
             >
-              Your message has been successfully sent. We will contact you soon!
+              Mesazhi juaj u dergua me sukses! Do te ju kontaktojme sa me shpejte qe te jete e mundur.
             </div>
           ) : (
             <>
